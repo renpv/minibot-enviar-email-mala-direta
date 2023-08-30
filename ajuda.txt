@@ -1,0 +1,11 @@
+Script criado para envio de mensagens para uma lista de destinatários
+
+Você deve ter um arquivo no excel com pelo menos as seguintes colunas, com exatamente esses títulos: 'e-mail' e 'processo'
+
+Você deve selecionar o arquivo excel (xlsx), definir um texto para o assunto do e-mail e copiar o texto que será enviado como mensagem para todos os destinatários.
+
+O script irá programar o envio para uma hora após a execução.
+Assim, você teré tempo para revisar todas as mensagens, alterar ou cancelar, quando for o caso.
+
+Script desenvolvido pela equipe da CPq/Proppg/Unilab
+
