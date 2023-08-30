@@ -5,7 +5,7 @@ import PySimpleGUI as sg
 import os
 
 def load_file_excel(path, titulo):
-    df = pd.read_excel('enderecos.xlsx')
+    df = pd.read_excel(path)
     if 'e-mail' not in df.columns:
         sg.popup('A coluna `e-mail` não foi encontrada no arquivo excel selecionado', 
                  'Verifique o arquivo e execute o script novamente')
